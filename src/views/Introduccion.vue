@@ -7,13 +7,13 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-8.mb-3
         p La agricultura depende en gran medida de la calidad del suelo, un recurso natural esencial que no solo actúa como soporte para las plantas, sino que también aporta agua y nutrientes, contribuyendo al equilibrio de los sistemas productivos. Sin embargo, el uso intensivo y las prácticas inadecuadas han generado procesos de degradación, lo que hace necesario un manejo más técnico y responsable.
         p.bg01.p-4 El estudio de las propiedades físicas y químicas del suelo, junto con el análisis de variables como textura, estructura, pH y fertilidad, permite comprender su comportamiento y tomar decisiones adecuadas. El análisis de suelos, apoyado en el muestreo, laboratorio e interpretación de resultados, facilita el diseño de estrategias de manejo y el uso racional de fertilizantes y abonos, promoviendo una producción agrícola sostenible y la conservación de los recursos naturales.
       .col-lg-4.col-10.col-md-7
         img(src='@/assets/curso/portada/img01.png', alt='')
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")      
       .col-lg-12
         figure
           .video

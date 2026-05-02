@@ -12,7 +12,7 @@
         img.izq(src='@/assets/curso/Tema4/img01.png', alt='')
       .col-lg-7.p-4
         .row
-          .col-lg-2.mb-3.col-4.col-md-3
+          .col-lg-2.mb-3.col-4.col-md-2
             img(src='@/assets/curso/Tema4/img02.svg', alt='')
           .col-lg-12
             p El análisis de suelos es un proceso técnico fundamental que permite evaluar la fertilidad y las condiciones químicas del suelo mediante pruebas de laboratorio. Este proceso incluye etapas como la toma de muestras, los procedimientos de laboratorio, la interpretación de resultados y el diagnóstico de la fertilidad, así como el estudio de fertilizantes y abonos utilizados en el manejo del suelo. A través de este análisis se obtiene información clave sobre la disponibilidad de nutrientes y las características del suelo, lo que facilita la toma de decisiones en fertilización y manejo del cultivo. Por ejemplo: un productor de tomate puede utilizar el análisis de suelo para determinar si requiere mayor aporte de fósforo para mejorar la floración y el desarrollo de frutos.

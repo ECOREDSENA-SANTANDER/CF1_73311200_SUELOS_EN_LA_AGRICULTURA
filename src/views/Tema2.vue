@@ -19,7 +19,7 @@
           h3.bg08.py-2.w-card-text Textura del suelo
     p La textura del suelo se refiere a la proporción relativa de partículas minerales de diferente tamaño presentes en el suelo. Estas partículas son: arena, limo y arcilla, y su combinación determina el comportamiento físico del suelo, especialmente en relación con el agua, el aire y los nutrientes.
 
-    .tabla-a.color-acento-botones.mb-5
+    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
       table
         thead
           tr
@@ -106,7 +106,7 @@
 
     p La estructura del suelo se refiere a la forma en que las partículas (arena, limo y arcilla) se agrupan o agregan entre sí formando unidades llamadas agregados. Esta organización influye directamente en la aireación, infiltración de agua, retención de humedad y crecimiento de las raíces. Una buena estructura favorece la productividad agrícola, mientras que una mala estructura puede limitar el desarrollo de los cultivos.
 
-    .tabla-a.color-acento-botones.mb-5
+    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
       table
         thead
           tr
@@ -192,7 +192,7 @@
 
     p Estas propiedades determinan la capacidad del suelo para almacenar agua, permitir el crecimiento de las raíces y mantener condiciones adecuadas para la producción agrícola.
     
-    TabsA.color-acento-botones.mb-4
+    TabsA.color-acento-botones.mb-4(data-aos="zoom-in-left")
       .tarjeta.color-acento-botones--borde.p-4(titulo="a)	Densidad del suelo")
         p Relación entre la masa y el volumen del suelo, indica el nivel de compactación.
         p #[b • Densidad alta:] suelo compactado, menos aireación, menor infiltración de agua y dificultad para el crecimiento de raíces.
@@ -222,7 +222,7 @@
 
     p Las propiedades físicas del suelo son fundamentales para el desarrollo de los cultivos, ya que condicionan el ambiente donde crecen las raíces.
 
-    .fondo01.p-5.mb-4
+    .fondo01.p-5.mb-4(data-aos="zoom-in-left")
       .row.justify-content-center.align-items-center
         .col-lg-10
           SlyderB.mb-5(:datos="datosSlyder")
@@ -240,7 +240,7 @@
 
     p La observación directa es una herramienta fundamental en el diagnóstico del suelo. Permite obtener información rápida y preliminar sin necesidad de equipos sofisticados.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-6
         h3 Aspectos a evaluar:
         p.mb-0 #[b •	Color del suelo:] indica contenido de materia orgánica y drenaje. 
@@ -263,6 +263,179 @@
 
     p El muestreo de suelo es una etapa fundamental para obtener resultados confiables en los análisis, ya que permite representar adecuadamente las condiciones del terreno.
 
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-8
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="a)	Tipos de muestreo:")
+            .col-md-12.mb-4.mb-md-0
+              p • Muestreo simple: se toma una sola muestra representativa del área.
+              p • Muestreo compuesto: se combinan varias submuestras tomadas en diferentes puntos del terreno para obtener una muestra más representativa.    
+
+          .row(titulo="b)	Procedimiento de muestreo:")
+            .col-md-12.mb-4.mb-md-0
+              p • Delimitar el área de estudio según características homogéneas del terreno.
+              p • Eliminar residuos superficiales (hojas, piedras, malezas).
+              p • Tomar muestras a una profundidad aproximada de 20 a 30 cm, dependiendo del cultivo.
+              p.mb-4 • Mezclar y homogenizar las submuestras en caso de muestreo compuesto.
+              img(src="@/assets/curso/Tema2/collage.svg")
+          .row(titulo="c)	Recomendaciones técnicas:")
+            .col-md-12.mb-4.mb-md-0
+              p • Evitar zonas atípicas como bordes, caminos, charcos o áreas alteradas.
+              p • Utilizar herramientas limpias para evitar contaminación de la muestra.
+              p • Rotular correctamente cada muestra para su identificación.
+      .col-lg-4.col-8.col-md-6
+        img(src="@/assets/curso/Tema2/img05.png")
+
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
+      .col-lg-5.col-10.mb-4.col-md-8
+        img(src="@/assets/curso/Tema2/img06.png")
+      .col-lg-7
+        p El análisis físico del suelo se realiza en laboratorio o mediante pruebas de campo con el fin de determinar sus propiedades principales:
+        p •	Textura del suelo (arena, limo, arcilla).
+        p •	Densidad aparente mediante cilindro volumétrico.
+        p •	Capacidad de retención de agua.
+        p •	Porosidad del suelo.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        p Este análisis permite cuantificar las propiedades físicas y complementar la observación realizada en campo. La interpretación de resultados consiste en analizar la información obtenida para definir el estado del suelo y su manejo adecuado:
+        p •	Determinar la aptitud del suelo para diferentes cultivos.
+        p •	Identificar necesidades de intervención o mejora.
+        p •	Definir prácticas de manejo apropiadas. 
+      .col-lg-5.col-10.col-md-8
+        img(src="@/assets/curso/Tema2/img07.png")
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-10.bg11.p-4
+        h3 Ejemplos de interpretación:
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            p #[b •	Alta densidad:] presencia de compactación del suelo.
+          .col-lg-6
+            p #[b •	Baja retención de agua:] necesidad de aumentar materia orgánica. 
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-6.mb-3
+        h3 Identificación de limitantes físicas del suelo:
+        p Las principales limitantes que afectan el desarrollo de los cultivos son:
+        p #[b •	Compactación:] reduce el crecimiento de raíces y la infiltración de agua.
+        p #[b •	Baja porosidad:] disminuye la aireación del suelo.
+        p #[b •	Mal drenaje:] genera encharcamientos y condiciones de estrés en las plantas.
+        p #[b •	Erosión:] provoca pérdida de la capa fértil del suelo.
+      .col-lg-6.mb-3
+        h3 Medidas de manejo recomendadas:
+        p •	Implementación de labranza adecuada según el tipo de suelo.
+        p •	Incorporación de materia orgánica para mejorar estructura y fertilidad.
+        p •	Uso de coberturas vegetales para proteger el suelo y reducir la erosión.
+        p •	El muestreo es una etapa crítica para garantizar resultados confiables en los análisis.
+    separador
+    #t_2_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
+      h2 2.3	Identificación de limitantes físicas
+
+    p Las limitantes físicas del suelo son condiciones que afectan su estructura y funcionamiento, reduciendo el desarrollo adecuado de las plantas y la productividad agrícola.
+
+    .row.justify-content-center.cursor-pointer.mb-5(data-aos="zoom-in-left")
+      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/Tema2/1.png", alt="")
+          .crd_hover_txt--body.bg10.text-white
+            h5.mb-3 Compactación:
+            p.mb-0 Ocurre cuando el suelo se comprime, lo que dificulta el crecimiento de las raíces y la infiltración de agua.
+      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/Tema2/2.png", alt="")
+          .crd_hover_txt--body.bg10.text-white
+            h4.mb-3 Baja porosidad: 
+            p.mb-0 Disminuye la cantidad de espacios de aire en el suelo, reduciendo la aireación y el intercambio de gases.
+      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/Tema2/3.png", alt="")
+          .crd_hover_txt--body.bg10.text-white
+            h4.mb-3 Mal drenaje:
+            p.mb-0 Provoca acumulación excesiva de agua, generando encharcamientos que afectan el desarrollo radicular.
+
+      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/Tema2/4.png", alt="")
+          .crd_hover_txt--body.bg10.text-white
+            h4.mb-3 Erosión: 
+            p.mb-0 Ocasiona la pérdida de la capa superficial del suelo, que es la más fértil y rica en nutrientes.
+
+    h3.mb-4 Estrategias de manejo para corregir las limitantes:
+
+    .row.mb-4
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/Tema2/01.svg' alt='')
+            .tarjeta.bg08
+              .p-4
+                h5.text-center Labranza adecuada
+                p.mb-0.text-center Mejora la estructura del suelo y reduce la compactación.
+
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/Tema2/02.svg' alt='')
+            .tarjeta.bg08
+              .p-5
+                h5.text-center Labranza adecuada
+                p.mb-0.text-center Mejora la estructura del suelo y reduce la compactación.
+
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/Tema2/03.svg' alt='')
+            .tarjeta.bg08
+              .p-5
+                h5.text-center Labranza adecuada
+                p.mb-0.text-center Mejora la estructura del suelo y reduce la compactación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>
@@ -277,11 +450,10 @@ export default {
         imagen: require('@/assets/curso/Tema2/img02.png'),
       },
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
+        titulo: 'b)	Impactos de un mal manejo:',
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+          '• Compactación del suelo.<br> • Erosión.<br> • Pérdida de humedad.<br> • Disminución de la fertilidad.',
+        imagen: require('@/assets/curso/Tema2/img002.png'),
       },
     ],
   }),
@@ -296,9 +468,28 @@ export default {
 }
 </script>
 
-<style scoped>
-/* opcional: mejorar separación */
-h4 {
-  font-weight: 600;
-}
+<style lang="sass">
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.92, 0, 0.58, 1)
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0
+    transition: all 0.5s cubic-bezier(0.2, 0, 0.58, 1)
+    transform: translateY(100%)
+    background-color: rgba(255, 247, 230, 1)
+
+  @media (min-width:1200px) and (max-width:1400px)
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 </style>

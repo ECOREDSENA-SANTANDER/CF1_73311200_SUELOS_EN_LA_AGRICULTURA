@@ -266,7 +266,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-8
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
           .row(titulo="a)	Tipos de muestreo:")
             .col-md-12.mb-4.mb-md-0
               p • Muestreo simple: se toma una sola muestra representativa del área.

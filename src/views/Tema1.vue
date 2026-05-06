@@ -339,7 +339,7 @@
             .row.justify-content-center(titulo="a)	Meteorización física (fragmentación de rocas):")
               .col-md-11.mb-4.mb-md-0
                 p Consiste en la desintegración mecánica de las rocas en partículas más pequeñas sin alterar su composición química.
-                .titulo-sexto.color-acento-boton(data-aos='fade-right')
+                .titulo-sexto.color-acento-botones(data-aos='fade-right')
                   h5 Tabla 1.
                   span Factores e importancia de la meteorización física del suelo
 
@@ -391,7 +391,7 @@
             .row.justify-content-center(titulo="c)	Actividad biológica (raíces y microorganismos): ")
               .col-md-11.mb-4.mb-md-0
                 p Los seres vivos desempeñan un papel fundamental en la formación del suelo.
-                .titulo-sexto.color-acento-boton(data-aos='fade-right').mb-3
+                .titulo-sexto.color-acento-botones(data-aos='fade-right').mb-3
                   h5 Tabla 2.
                   span Rol de la actividad biológica en la formación y fertilidad del suelo
 
@@ -567,7 +567,7 @@
       h3 a)	Horizonte O
       p Materia orgánica en descomposición. Es la capa más superficial del suelo, compuesta principalmente por residuos orgánicos.
 
-      .titulo-sexto.color-acento-boton(data-aos='fade-right')
+      .titulo-sexto.color-acento-botones(data-aos='fade-right')
         h5 Tabla 3.
         span Horizonte O del suelo: características, funciones e importancia agrícola
 
@@ -619,7 +619,7 @@
       h3 b)	Horizonte A
       p Capa fértil, también conocido como capa arable, es la zona más importante para la producción agrícola.
 
-      .titulo-sexto.color-acento-boton(data-aos='fade-right')
+      .titulo-sexto.color-acento-botones(data-aos='fade-right')
         h5 Tabla 4.
         span Horizonte A: características, procesos e importancia agrícola de la capa arable del suelo
 
@@ -683,7 +683,7 @@
       h3 c)	Horizonte B
       p Acumulación de minerales, se encuentra debajo del horizonte A y es una zona de acumulación.
 
-      .titulo-sexto.color-acento-boton(data-aos='fade-right')
+      .titulo-sexto.color-acento-botones(data-aos='fade-right')
         h5 Tabla 5.
         span Horizonte B del suelo: características, procesos e importancia agrícola
 
@@ -743,7 +743,7 @@
       h3 d)	Horizonte C
       p Roca fragmentada; es la capa más profunda del suelo, formada por material parental poco alterado.
 
-      .titulo-sexto.color-acento-boton(data-aos='fade-right')
+      .titulo-sexto.color-acento-botones(data-aos='fade-right')
         h5 Tabla 6.
         span Horizonte C del suelo: características, funciones e importancia agrícola
 

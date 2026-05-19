@@ -31,7 +31,7 @@
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-          h3.bg08.py-2.w-card-text Capacidad de intercambio catiónico (CIC)
+          h3.bg08.py-2.w-card-text Capacidad de Intercambio Catiónico (CIC)
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-6
@@ -138,8 +138,12 @@
               | Boro (B), entre otros.
             td Requeridos en pequeñas cantidades.
             td Participan en procesos metabólicos, enzimáticos y fisiológicos esenciales.
-
-    h3 Factores que afectan
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
+          h3.bg08.py-2.w-card-text Factores que afectan
+    
     p #[b •	Contenido de nutrientes:] es la cantidad de elementos nutritivos disponibles en el suelo.
     p #[b •	Materia orgánica:] es uno de los componentes más importantes para la fertilidad, un suelo con buen contenido de materia orgánica es más fértil, productivo y sostenible.
     p #[b •	pH adecuado:] el pH del suelo indica su nivel de acidez o alcalinidad y afecta directamente la disponibilidad de nutrientes, la mayoría de los cultivos crecen mejor en un pH entre 5.5 y 7.5. 

@@ -37,10 +37,10 @@
               p Los fertilizantes y abonos son insumos que se utilizan para aportar nutrientes al suelo. Su correcta selección y aplicación permiten mejorar la productividad agrícola. Por ejemplo: en un cultivo intensivo de hortalizas, se puede combinar fertilización química para suplir necesidades inmediatas y abonos orgánicos para mejorar la calidad del suelo a largo plazo.
           .row.justify-content-center(titulo="Tipos de fertilizantes")
             .col-md-11.mb-4.mb-md-0
-              p Los fertilizantes químicos, como la urea o el fosfato diamónico (DAP), tienen una acción rápida y son útiles cuando el cultivo presenta deficiencias visibles. Por otro lado, los fertilizantes orgánicos, como el compost, liberan nutrientes lentamente y mejoran la estructura del suelo. Por ejemplo: en cultivos de lechuga se puede aplicar fertilizante químico para un crecimiento rápido, complementado con materia orgánica para mantener la fertilidad del suelo.
+              p Los fertilizantes químicos, como la urea o el fosfato diamónico (DAP), tienen una acción rápida y son útiles cuando el cultivo presenta deficiencias visibles. Por otro lado, los fertilizantes orgánicos, como el #[em compost], liberan nutrientes lentamente y mejoran la estructura del suelo. Por ejemplo: en cultivos de lechuga se puede aplicar fertilizante químico para un crecimiento rápido, complementado con materia orgánica para mantener la fertilidad del suelo.
           .row.justify-content-center(titulo="Abonos orgánicos")
             .col-md-11.mb-4.mb-md-0
-              p Los abonos orgánicos, como el compost, el lombricompostaje y el estiércol, aportan nutrientes y mejoran las propiedades físicas, químicas y biológicas del suelo. Por ejemplo: el lombricompostaje es ampliamente utilizado en cultivos de hortalizas por su alta calidad nutricional, mientras que el estiércol bovino se utiliza en cultivos extensivos. Estos abonos mejoran la retención de agua, favorecen la aireación del suelo y promueven la actividad de microorganismos benéficos.
+              p Los abonos orgánicos, como el #[em compost], el lombricompostaje y el estiércol, aportan nutrientes y mejoran las propiedades físicas, químicas y biológicas del suelo. Por ejemplo: el lombricompostaje es ampliamente utilizado en cultivos de hortalizas por su alta calidad nutricional, mientras que el estiércol bovino se utiliza en cultivos extensivos. Estos abonos mejoran la retención de agua, favorecen la aireación del suelo y promueven la actividad de microorganismos benéficos.
           .row.justify-content-center(titulo="Enmiendas del suelo")
             .col-md-11.mb-4.mb-md-0
               p Las enmiendas se utilizan para corregir problemas específicos del suelo. Por ejemplo: en suelos ácidos se aplica cal agrícola para aumentar el pH y mejorar la disponibilidad de nutrientes. En suelos compactados o con problemas de sodicidad, el yeso ayuda a mejorar la estructura y facilitar la infiltración del agua. Estas prácticas son fundamentales para recuperar suelos degradados.
@@ -69,7 +69,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
-            texto="Pódcast: Para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
+            texto="Pódcast: para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
             :audio="require('@/assets/curso/Tema4/podcast.svg')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

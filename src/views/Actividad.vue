@@ -20,7 +20,7 @@ export default {
       tema: 'Fundamentos de evaluación física y química del suelo',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar el nivel de comprensión del tema propiedades físicas y químicas del suelo mediante la aplicación de técnicas de muestreo, análisis e interpretación de resultados, con el fin de diagnosticar su estado, identificar limitantes y proponer estrategias de manejo',
+        '<b> Objetivo:</b> evaluar el nivel de comprensión del tema propiedades físicas y químicas del suelo mediante la aplicación de técnicas de muestreo, análisis e interpretación de resultados, con el fin de diagnosticar su estado, identificar limitantes y proponer estrategias de manejo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -564,7 +564,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Compost.',
+              texto: '<i>Compost.</i>',
               esCorrecta: true,
             },
             {

@@ -60,42 +60,39 @@
       .col-lg-5 
         img(src='@/assets/curso/Tema5/img04.svg', alt='')
 
-    h3 Ejemplos: 
-    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-izq Tipo de cultivo
-            th.text-izq Nutriente predominante
-            th.text-izq Etapa clave
-        tbody
-          tr
-            td.text-center
-              | #[b Cultivos de hoja]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/1.png', alt='Cultivos de hoja')
-            td Nitrógeno.
-            td Crecimiento.
-          tr
-            td.text-center
-              | #[b Cultivos de fruto]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/2.png', alt='Cultivos de hoja')
-            td Potasio.
-            td Fructificación.
-          tr
-            td.text-center
-              | #[b Cereales (maíz)]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/3.png', alt='Cultivos de hoja')
-            td Nitrógeno y fósforo.
-            td Crecimiento inicial.
+    h3 Ejemplos:
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.bg09.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/1.png', alt='Texto que describa la imagen')          
+        h3.text-center Tipo de cultivo: 
+        h3.text-center Cultivos de hoja
+        p #[b Nutriente predominante:] Nitrógeno. 
+        p #[b Etapa clave:] Crecimiento.
+
+      
+      .col-md.tarjeta.bg13.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/2.png', alt='Texto que describa la imagen')          
+        h3.text-center Tipo de cultivo: 
+        h3.text-center Cultivos de fruto
+        p #[b Nutriente predominante:] Potasio.
+        p #[b Etapa clave:] Fructificación.
+      
+      .col-md.tarjeta.bg10.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/3.png', alt='Texto que describa la imagen')          
+        h3.text-center Tipo de cultivo:
+        h3.text-center Cereales (maíz)
+        p #[b Nutriente predominante:] Nitrógeno y fósforo.
+        p #[b Etapa clave:] Crecimiento inicial.
+   
 
     separador
     #t_5_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -125,41 +122,36 @@
 
 
     h3 Ejemplos: 
-    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-izq Etapa del cultivo
-            th.text-izq Nutriente aplicado
-            th.text-izq Objetivo
-        tbody
-          tr
-            td.text-center
-              | #[b Siembra]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/4.png', alt='Cultivos de hoja')
-            td Fósforo.
-            td Desarrollo radicular.
-          tr
-            td.text-center
-              | #[b Crecimiento]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/5.png', alt='Cultivos de hoja')
-            td Nitrógeno.
-            td Desarrollo vegetativo.
-          tr
-            td.text-center
-              | #[b Producción]
-              br
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema5/6.png', alt='Cultivos de hoja')
-            td Potasio.
-            td Calidad y rendimiento.
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.bg10.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/4.png', alt='Texto que describa la imagen')          
+        h3.text-center Etapa del cultivo: 
+        h3.text-center Siembra
+        p #[b Nutriente aplicado:] Fósforo.
+        p #[b Objetivo:] Desarrollo radicular.
+
+      .col-md.tarjeta.bg13.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/5.png', alt='Texto que describa la imagen')          
+        h3.text-center Etapa del cultivo: 
+        h3.text-center Crecimiento
+        p #[b Nutriente aplicado:] Nitrógeno.
+        p #[b Objetivo:] Desarrollo vegetativo.
+      
+      .col-md.tarjeta.bg09.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-10
+            figure
+              img(src='@/assets/curso/Tema5/6.png', alt='Texto que describa la imagen')          
+        h3.text-center Etapa del cultivo:
+        h3.text-center Producción
+        p #[b Nutriente aplicado:] Potasio.
+        p #[b Objetivo:] Calidad y rendimiento.
 
     separador
     #t_5_3.titulo-segundo.mb-5(data-aos="zoom-in-left")

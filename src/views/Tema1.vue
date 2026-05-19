@@ -256,23 +256,23 @@
           ul.lista-ul--color
             li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              p.mb-0 Rotación de cultivos 
+              p.mb-0 Rotación de cultivos.
             li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              p.mb-0 Uso de coberturas vegetales  
+              p.mb-0 Uso de coberturas vegetales.  
             li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              p.mb-0 Aplicación de #[em compost]
+              p.mb-0 Aplicación de #[em compost].
             li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              p.mb-0 Manejo integrado de nutrientes      
+              p.mb-0 Manejo integrado de nutrientes.      
         .col-lg-5.col-md-8
           img(src="@/assets/curso/Tema1/img08.png")
 
 
       separador
       #t_1_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
-        h2 1.1  Generalidades del suelo
+        h2 1.3  Generalidades del suelo
 
       p Se abordan los conceptos básicos del suelo, su origen, formación, composición y funciones, permitiendo comprender su importancia como recurso natural en la producción agrícola.
       
@@ -361,7 +361,7 @@
                             li.d-flex •
                               p.mb-0 Viento.
                             li.d-flex •
-                              p Presión de raíces que penetran las grietas
+                              p Presión de raíces que penetran las grietas.
 
                         td
                           ul.lista-ul--color
@@ -450,7 +450,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-            h3.bg08.py-2.w-card-text Factores formadores del suelo
+            h3.bg08.py-2.w-card-text Principales factores formados del suelo
 
       SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="zoom-in-left")
         .tarjeta.bgslyder.p-4

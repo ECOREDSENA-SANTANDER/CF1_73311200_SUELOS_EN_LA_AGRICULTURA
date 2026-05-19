@@ -19,170 +19,265 @@
           h3.bg08.py-2.w-card-text Textura del suelo
     p La textura del suelo se refiere a la proporción relativa de partículas minerales de diferente tamaño presentes en el suelo. Estas partículas son: arena, limo y arcilla, y su combinación determina el comportamiento físico del suelo, especialmente en relación con el agua, el aire y los nutrientes.
 
-    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-izq Componente
-            th.text-izq Características
-            th.text-izq Ventajas
-            th.text-izq Desventajas
-        tbody
-          tr
-            td.text-center
-              | #[b Arena]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Arena.png', alt='Arena')
-            td
-              | - Tamaño: 0.05 a 2 mm
-              br
-              | - Sensación áspera al tacto.
-              br
-              | - Alta permeabilidad (el agua pasa rápidamente)
-              br
-              | - Baja retención de agua y nutrientes.
-            td
-              | - Buena aireación.
-              br
-              | - Fácil manejo (labranza)
-            td
-              | - Baja fertilidad.
-              br
-              | - Requiere riego frecuente.
-          tr
-            td.text-center
-              | #[b Limo]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Limo.png', alt='Limo')
-            td
-              | - Tamaño: 0.002 a 0.05 mm.
-              br
-              | - Sensación suave o sedosa.
-              br
-              | - Retención moderada de agua.
-              br
-              | - Fertilidad media.
-            td
-              | - Buena capacidad para retener nutrientes.
-              br
-              | - Favorece el crecimiento de las plantas.
-            td
-              | - Puede compactarse fácilmente.
-              br
-              | - Susceptible a la erosión.
-          tr
-            td.text-center
-              | #[b Arcilla]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Arcilla.png', alt='Arcilla')
-            td
-              | - Tamaño: menor a 0.002 mm.
-              br
-              | - Sensación pegajosa cuando está húmeda.
-              br
-              | - Alta retención de agua y nutrientes.
-              br
-              | - Baja permeabilidad.
-            td
-              | - Alta fertilidad potencial
-              br
-              | - Retiene nutrientes por más tiempo.
-            td
-              | - Drenaje deficiente.
-              br
-              | - Puede dificultar el crecimiento de raíces.
-              br
-              | - Se compacta con facilidad.
+    TabsC.color-primario.mb-3(data-aos="zoom-in-left")
+        .py-3.py-md-4(titulo="Componente: Arena")
+          .row.justify-content-center.p-4
+            .col-lg-2.col-8.mb-3
+              img(src='@/assets/curso/Tema2/Arena.png', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h4 Características
+              ul.lista-ul
+                li.d-flex
+                  i.fas -
+                  | Tamaño: 0.05 a 2 mm. 
+                li.d-flex
+                  i.fas -
+                  | Sensación áspera al tacto. 
+                li.d-flex
+                  i.fas -
+                  | Alta permeabilidad (el agua pasa rápidamente). 
+                li.d-flex
+                  i.fas -
+                  | Baja retención de agua y nutrientes.
+            
+            .col-lg-3.mb-4.mb-md-0
+              h4 Ventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas -
+                  | Buena aireación. 
+                li.d-flex
+                  i.fas -
+                  | Fácil manejo (labranza).
+            .col-lg-3.mb-4.mb-md-0
+              h4 Desventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas -
+                  | Baja fertilidad.
+ 
+                li.d-flex
+                  i.fas -
+                  | Requiere riego frecuente.
+        
+        .py-3.py-md-4(titulo="Componente: Limo")
+          .row.justify-content-center.p-4
+            .col-lg-2.col-8.mb-3
+              img(src='@/assets/curso/Tema2/Limo.png', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h4 Características
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Tamaño: 0.002 a 0.05 mm.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Sensación suave o sedosa.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Retención moderada de agua.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Fertilidad media.
 
+            .col-lg-3.mb-4.mb-md-0
+              h4 Ventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Buena capacidad para retener nutrientes.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Favorece el crecimiento de las plantas.
+
+            .col-lg-3.mb-4.mb-md-0
+              h4 Desventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Puede compactarse fácilmente.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Susceptible a la erosión.
+
+        .py-3.py-md-4(titulo="Componente: Arcilla")
+          .row.justify-content-center.p-4
+            .col-lg-2.col-8.mb-3
+              img(src='@/assets/curso/Tema2/Arcilla.png', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h4 Características
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Tamaño: menor a 0.002 mm.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Sensación pegajosa cuando está húmeda.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Alta retención de agua y nutrientes.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Baja permeabilidad.
+
+            .col-lg-3.mb-4.mb-md-0
+              h4 Ventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Alta fertilidad potencial.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Retiene nutrientes por más tiempo.
+
+            .col-lg-3.mb-4.mb-md-0
+              h4 Desventajas
+              ul.lista-ul
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Drenaje deficiente.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Puede dificultar el crecimiento de raíces.
+                li.d-flex
+                  i.fas.me-2 -
+                  p.mb-0 Se compacta con facilidad.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-          h3.bg08.py-2.w-card-text Textura del suelo
+          h3.bg08.py-2.w-card-text Estructura del suelo
 
     p La estructura del suelo se refiere a la forma en que las partículas (arena, limo y arcilla) se agrupan o agregan entre sí formando unidades llamadas agregados. Esta organización influye directamente en la aireación, infiltración de agua, retención de humedad y crecimiento de las raíces. Una buena estructura favorece la productividad agrícola, mientras que una mala estructura puede limitar el desarrollo de los cultivos.
+  
+    TabsC.color-primario.mb-3(data-aos="zoom-in-left")
+      .py-3.py-md-4(titulo="Tipo de estructura: Granular")
+        .row.justify-content-center.p-4
+          .col-lg-2.col-8.mb-3
+            img(src='@/assets/curso/Tema2/Granular.png', alt='Tipo de estructura granular')
 
-    .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-izq Tipo de estructura
-            th.text-izq Características
-            th.text-izq Dónde se encuentra
-            th.text-izq Causas
-            th.text-izq Importancia agrícola
-        tbody
-          tr
-            td.text-center
-              | #[b Granular]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Granular.png', alt='Granular')
-            td
-              | - Agregados pequeños, redondeados y sueltos.
-              br
-              | - Alta porosidad.
-              br
-              | - Buena infiltración y retención de agua.
-              br
-              | - Excelente aireación.
-            td Principalmente en el horizonte A (capa superficial).
-            td Formación natural por actividad biológica y materia orgánica.
-            td
-              | - Facilita el crecimiento de raíces.
-              br
-              | - Favorece la actividad biológica.
-              br
-              | - Permite un buen manejo del suelo.
-          tr
-            td.text-center
-              | #[b Laminar]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Laminar.png', alt='Laminar')
-            td
-              | - Forma de láminas o placas.
-              br
-              | - Baja permeabilidad.
-              br
-              | - Dificulta la circulación de agua y aire.
-            td Puede presentarse en diferentes horizontes, especialmente superficiales compactados.
-            td
-              | - Compactación del suelo.
-              br
-              | - Tránsito de maquinaria pesada.
-              br
-              | - Procesos naturales.
-            td
-              | - Limita el desarrollo radicular.
-              br
-              | - Favorece el encharcamiento.
-              br
-              | - Requiere manejo (labranza o subsolado).
-          tr
-            td.text-center
-              | #[b Prismática]
-              br
-              .contenedor-img
-                img.img1(src='@/assets/curso/Tema2/Prismatica.png', alt='Prismática')
-            td
-              | - Forma alargada vertical.
-              br
-              | - Presencia de grietas entre agregados.
-              br
-              | - Moderada permeabilidad.
-            td Generalmente en el horizonte B.
-            td Formación natural por procesos de acumulación y contracción del suelo.
-            td
-              | - Permite cierto movimiento de agua y aire.
-              br
-              | - Puede dificultar raíces si está compacta.
+          .col-lg-2.mb-4.mb-md-0
+            h4 Características
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Agregados pequeños, redondeados y sueltos.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Alta porosidad.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Buena infiltración y retención de agua.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Excelente aireación.
 
+          .col-lg-2.mb-4.mb-md-0
+            h4 Dónde se encuentra
+            p Principalmente en el horizonte A (capa superficial).
 
+          .col-lg-2.mb-4.mb-md-0
+            h4 Causas
+            p Formación natural por actividad biológica y materia orgánica.
+
+          .col-lg-3.mb-4.mb-md-0
+            h4 Importancia agrícola
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Facilita el crecimiento de raíces.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Favorece la actividad biológica.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Permite un buen manejo del suelo.
+
+      .py-3.py-md-4(titulo="Tipo de estructura: Laminar")
+        .row.justify-content-center.p-4
+          .col-lg-2.col-8.mb-3
+            img(src='@/assets/curso/Tema2/Laminar.png', alt='Tipo de estructura laminar')
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Características
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Forma de láminas o placas.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Baja permeabilidad
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Dificulta la circulación de agua y aire.
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Dónde se encuentra
+            p Puede presentarse en diferentes horizontes, especialmente superficiales compactados.
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Causas
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Compactación del suelo.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Tránsito de maquinaria pesada.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Procesos naturales.
+
+          .col-lg-3.mb-4.mb-md-0
+            h4 Importancia agrícola
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Limita el desarrollo radicular.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Favorece el encharcamiento.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Requiere manejo (labranza o subsolado)
+
+      .py-3.py-md-4(titulo="Tipo de estructura: Prismática")
+        .row.justify-content-center.p-4
+          .col-lg-2.col-8.mb-3
+            img(src='@/assets/curso/Tema2/Prismatica.png', alt='Tipo de estructura prismática')
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Características
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Forma alargada vertical.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Presencia de grietas entre agregados.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Moderada permeabilidad.
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Dónde se encuentra
+            p Generalmente en el horizonte B.
+
+          .col-lg-2.mb-4.mb-md-0
+            h4 Causas
+            p Formación natural por procesos de acumulación y contracción del suelo.
+
+          .col-lg-3.mb-4.mb-md-0
+            h4 Importancia agrícola
+            ul.lista-ul
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Permite cierto movimiento de agua y aire.
+              li.d-flex
+                i.fas.me-2 -
+                p.mb-0 Puede dificultar raíces si está compacta.
+ 
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -267,19 +362,19 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
-          .row(titulo="a)	Tipos de muestreo:")
+          .row(titulo="a)	Tipos de muestreo")
             .col-md-12.mb-4.mb-md-0
               p • Muestreo simple: se toma una sola muestra representativa del área.
               p • Muestreo compuesto: se combinan varias submuestras tomadas en diferentes puntos del terreno para obtener una muestra más representativa.    
 
-          .row(titulo="b)	Procedimiento de muestreo:")
+          .row(titulo="b)	Procedimiento de muestreo")
             .col-md-12.mb-4.mb-md-0
               p • Delimitar el área de estudio según características homogéneas del terreno.
               p • Eliminar residuos superficiales (hojas, piedras, malezas).
               p • Tomar muestras a una profundidad aproximada de 20 a 30 cm, dependiendo del cultivo.
               p.mb-4 • Mezclar y homogenizar las submuestras en caso de muestreo compuesto.
               img(src="@/assets/curso/Tema2/collage.svg")
-          .row(titulo="c)	Recomendaciones técnicas:")
+          .row(titulo="c)	Recomendaciones técnicas")
             .col-md-12.mb-4.mb-md-0
               p • Evitar zonas atípicas como bordes, caminos, charcos o áreas alteradas.
               p • Utilizar herramientas limpias para evitar contaminación de la muestra.
@@ -315,7 +410,7 @@
             p #[b •	Baja retención de agua:] necesidad de aumentar materia orgánica. 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-6.mb-3
-        h3 Identificación de limitantes físicas del suelo:
+        h3 Identificación de limitantes físicas del suelo
         p Las principales limitantes que afectan el desarrollo de los cultivos son:
         p #[b •	Compactación:] reduce el crecimiento de raíces y la infiltración de agua.
         p #[b •	Baja porosidad:] disminuye la aireación del suelo.
@@ -385,16 +480,16 @@
             img(src='@/assets/curso/Tema2/02.svg' alt='')
             .tarjeta.bg08
               .p-5
-                h5.text-center Labranza adecuada
-                p.mb-0.text-center Mejora la estructura del suelo y reduce la compactación.
+                h5.text-center Incorporación de materia orgánica
+                p.mb-0.text-center Aumenta la porosidad, mejora la retención de agua y la fertilidad.
 
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/Tema2/03.svg' alt='')
             .tarjeta.bg08
               .p-5
-                h5.text-center Labranza adecuada
-                p.mb-0.text-center Mejora la estructura del suelo y reduce la compactación.
+                h5.text-center Uso de coberturas vegetales
+                p.mb-0.text-center Protege el suelo de la erosión, mejora la estructura y conserva la humedad.
 
 
 
@@ -446,7 +541,7 @@ export default {
       {
         titulo: 'a) Influyen directamente en:',
         texto:
-          '• Germinación: disponibilidad de agua y oxígeno.<br>• Crecimiento radicular: facilidad de penetración en el suelo.<br>• Disponibilidad de nutrientes: movilidad y absorción.<br>• Rendimiento de los cultivos: productividad final.',
+          '• <b>Germinación</b>: disponibilidad de agua y oxígeno.<br>• <b>Crecimiento radicular</b>: facilidad de penetración en el suelo.<br>• <b>Disponibilidad de nutrientes:</b> movilidad y absorción.<br>• <b>Rendimiento de los cultivos</b>: productividad final.',
         imagen: require('@/assets/curso/Tema2/img02.png'),
       },
       {

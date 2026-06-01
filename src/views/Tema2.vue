@@ -20,7 +20,7 @@
     p La textura del suelo se refiere a la proporción relativa de partículas minerales de diferente tamaño presentes en el suelo. Estas partículas son: arena, limo y arcilla, y su combinación determina el comportamiento físico del suelo, especialmente en relación con el agua, el aire y los nutrientes.
 
     TabsC.color-primario.mb-3(data-aos="zoom-in-left")
-        .py-3.py-md-4(titulo="Componente: Arena")
+        .py-3.py-md-4(titulo="Componente:arena")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
               img(src='@/assets/curso/Tema2/Arena.png', alt='Texto que describa la imagen')
@@ -60,7 +60,7 @@
                   i.fas -
                   | Requiere riego frecuente.
         
-        .py-3.py-md-4(titulo="Componente: Limo")
+        .py-3.py-md-4(titulo="Componente: limo")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
               img(src='@/assets/curso/Tema2/Limo.png', alt='Texto que describa la imagen')
@@ -100,7 +100,7 @@
                   i.fas.me-2 -
                   p.mb-0 Susceptible a la erosión.
 
-        .py-3.py-md-4(titulo="Componente: Arcilla")
+        .py-3.py-md-4(titulo="Componente: arcilla")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
               img(src='@/assets/curso/Tema2/Arcilla.png', alt='Texto que describa la imagen')
@@ -152,7 +152,7 @@
     p La estructura del suelo se refiere a la forma en que las partículas (arena, limo y arcilla) se agrupan o agregan entre sí formando unidades llamadas agregados. Esta organización influye directamente en la aireación, infiltración de agua, retención de humedad y crecimiento de las raíces. Una buena estructura favorece la productividad agrícola, mientras que una mala estructura puede limitar el desarrollo de los cultivos.
   
     TabsC.color-primario.mb-3(data-aos="zoom-in-left")
-      .py-3.py-md-4(titulo="Tipo de estructura: Granular")
+      .py-3.py-md-4(titulo="Tipo de estructura: granular")
         .row.justify-content-center.p-4
           .col-lg-2.col-8.mb-3
             img(src='@/assets/curso/Tema2/Granular.png', alt='Tipo de estructura granular')
@@ -194,7 +194,7 @@
                 i.fas.me-2 -
                 p.mb-0 Permite un buen manejo del suelo.
 
-      .py-3.py-md-4(titulo="Tipo de estructura: Laminar")
+      .py-3.py-md-4(titulo="Tipo de estructura: laminar")
         .row.justify-content-center.p-4
           .col-lg-2.col-8.mb-3
             img(src='@/assets/curso/Tema2/Laminar.png', alt='Tipo de estructura laminar')
@@ -242,7 +242,7 @@
                 i.fas.me-2 -
                 p.mb-0 Requiere manejo (labranza o subsolado)
 
-      .py-3.py-md-4(titulo="Tipo de estructura: Prismática")
+      .py-3.py-md-4(titulo="Tipo de estructura: prismática")
         .row.justify-content-center.p-4
           .col-lg-2.col-8.mb-3
             img(src='@/assets/curso/Tema2/Prismatica.png', alt='Tipo de estructura prismática')

@@ -70,7 +70,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
             texto="Pódcast: para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
-            :audio="require('@/assets/curso/Tema4/podcast.svg')"
+            :audio="require('@/assets/curso/Tema4/podcast.mp3')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 

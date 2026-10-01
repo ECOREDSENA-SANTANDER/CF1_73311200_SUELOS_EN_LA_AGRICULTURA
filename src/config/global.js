@@ -267,17 +267,17 @@ export default {
       link: '',
     },
     {
-      referencia: 'Lifeder. (s.f.). Características del suelo.',
+      referencia: 'Lifeder. (s. f.). Características del suelo.',
       link: '',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Propiedades físicas del suelo.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Propiedades físicas del suelo.',
       link: '',
     },
     {
       referencia:
-        'Universidad Nacional de Colombia. (s.f.). Documento sobre suelos (archivo PDF).',
+        'Universidad Nacional de Colombia. (s. f.). Documento sobre suelos (archivo PDF).',
       link: '',
     },
   ],
@@ -288,7 +288,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -342,7 +342,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Sandra Liliana Cristancho Cruz',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

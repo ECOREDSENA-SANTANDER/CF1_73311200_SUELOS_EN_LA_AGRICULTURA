@@ -20,7 +20,7 @@
     p La textura del suelo se refiere a la proporción relativa de partículas minerales de diferente tamaño presentes en el suelo. Estas partículas son: arena, limo y arcilla, y su combinación determina el comportamiento físico del suelo, especialmente en relación con el agua, el aire y los nutrientes.
 
     TabsC.color-primario.mb-3(data-aos="zoom-in-left")
-        .py-3.py-md-4(titulo="Componente:arena")
+        .py-3.py-md-4(titulo="Componente: arena")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
               img(src='@/assets/curso/Tema2/Arena.png', alt='Texto que describa la imagen')

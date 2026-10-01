@@ -164,7 +164,7 @@
             p.mb-0  Disponibilidad.
           li.d-flex.align-items-start
             i.fas •
-            p.mb-0 Movilidad
+            p.mb-0 Movilidad.
           li.d-flex.align-items-start
             i.fas •
             p.mb-0 Absorción de nutrientes. 

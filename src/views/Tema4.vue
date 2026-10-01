@@ -63,13 +63,13 @@
             br
             br
         
-    img(src='@/assets/curso/Tema4/podcast.svg', alt='Texto que describa la imagen')(data-aos="zoom-in-left")
+    img(src='@/assets/curso/Tema4/podcast.svg', alt='')(data-aos="zoom-in-left")
     .row.justify-content-center.g-0(data-aos="fade-right").mb-4
       .col-lg-12
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
-            texto="Pódcast: para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
+            texto="Pódcast: para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad."
             :audio="require('@/assets/curso/Tema4/podcast.mp3')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

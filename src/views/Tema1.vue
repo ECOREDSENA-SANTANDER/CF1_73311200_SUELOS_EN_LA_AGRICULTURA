@@ -443,9 +443,12 @@
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
             h3.bg08.py-2.w-card-text Factores formadores del suelo
       p Los factores formadores del suelo actúan de manera conjunta durante la pedogénesis, determinando sus características, fertilidad y capacidad productiva. Su interacción influye directamente en la formación, evolución y comportamiento del suelo.
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 1. 
+        span pH del suelo
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          img(src="@/assets/curso/Tema1/img03.svg")
+          img(src="@/assets/curso/Tema1/img03.svg", alt='Factores para la formación del suelo y un perfil del terreno rodeado por: clima, tiempo, relieve, minerales y materia orgánica. ')
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
@@ -560,9 +563,13 @@
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
             h3.bg08.py-2.w-card-text Perfil del suelo
       p El suelo se organiza en capas denominadas horizontes, que se diferencian por sus características físicas, químicas y biológicas. Estas capas, en conjunto, forman el perfil del suelo, el cual permite comprender su grado de desarrollo, fertilidad y aptitud para la producción agrícola.
+      
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 2.  
+        span Perfil del suelo (capas y horizontes)
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          img(src="@/assets/curso/Tema1/img07.svg")
+          img(src="@/assets/curso/Tema1/img07.svg", alt='Perfil del suelos (capas y horizontes)” que muestra el terreno dividido en: horizonte 0, horizonte a, b, c y roca madre. ')
 
       h3 a)	Horizonte O
       p Materia orgánica en descomposición. Es la capa más superficial del suelo, compuesta principalmente por residuos orgánicos.

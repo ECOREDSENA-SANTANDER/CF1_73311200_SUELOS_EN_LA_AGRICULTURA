@@ -66,7 +66,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/1.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/1.png', alt='')          
         h3.text-center Tipo de cultivo: 
         h3.text-center Cultivos de hoja
         p #[b Nutriente predominante:] Nitrógeno. 
@@ -77,7 +77,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/2.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/2.png', alt='')          
         h3.text-center Tipo de cultivo: 
         h3.text-center Cultivos de fruto
         p #[b Nutriente predominante:] Potasio.
@@ -87,7 +87,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/3.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/3.png', alt='')          
         h3.text-center Tipo de cultivo:
         h3.text-center Cereales (maíz)
         p #[b Nutriente predominante:] Nitrógeno y fósforo.
@@ -127,7 +127,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/4.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/4.png', alt='')          
         h3.text-center Etapa del cultivo: 
         h3.text-center Siembra
         p #[b Nutriente aplicado:] Fósforo.
@@ -137,7 +137,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/5.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/5.png', alt='')          
         h3.text-center Etapa del cultivo: 
         h3.text-center Crecimiento
         p #[b Nutriente aplicado:] Nitrógeno.
@@ -147,7 +147,7 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/Tema5/6.png', alt='Texto que describa la imagen')          
+              img(src='@/assets/curso/Tema5/6.png', alt='')          
         h3.text-center Etapa del cultivo:
         h3.text-center Producción
         p #[b Nutriente aplicado:] Potasio.

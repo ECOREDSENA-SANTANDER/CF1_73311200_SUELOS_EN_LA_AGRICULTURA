@@ -22,7 +22,7 @@
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src='@/assets/curso/Tema1/1.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/1.svg', alt='')
             h5.text-center a)	Desde el punto de vista productivo, el suelo:
             ul.lista-ul
               li.d-flex
@@ -41,7 +41,7 @@
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src='@/assets/curso/Tema1/2.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/2.svg', alt='')
             h5.text-center b)	Un suelo en buenas condiciones permite:
             ul.lista-ul
               li.d-flex
@@ -60,7 +60,7 @@
             .row.justify-content-center.mb-3
               .col-4
                 figure
-                  img(src='@/assets/curso/Tema1/3.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/3.svg', alt='')
             h5.text-center c)	Por el contrario, los suelos degradados presentan:
             ul.lista-ul
               li.d-flex
@@ -86,7 +86,7 @@
         .py-3.py-md-4(titulo="a) Suelo")
           .row.justify-content-center
             .col-lg-4.col-8.mb-3
-              img(src='@/assets/curso/Tema1/img02.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema1/img02.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p Es un recurso natural fundamental que actúa como medio de crecimiento para las plantas. Cumple múltiples funciones dentro del sistema productivo:
               ul.lista-ul
@@ -118,7 +118,7 @@
         .py-3.py-md-4(titulo="b) Planta")
           .row.justify-content-center
             .col-lg-4.col-8.mb-3
-              img(src='@/assets/curso/Tema1/img03.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema1/img03.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p Es el componente vivo del sistema, encargado de transformar los recursos disponibles en biomasa mediante procesos fisiológicos como la fotosíntesis.
               p Funciones principales de la planta:
@@ -157,7 +157,7 @@
         .py-3.py-md-4(titulo="c) Ambiente")
           .row.justify-content-center
             .col-lg-4.col-8.mb-3
-              img(src='@/assets/curso/Tema1/img04.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema1/img04.png', alt='')
             .col-lg-6.mb-4.mb-md-0 
               p Comprende el conjunto de factores externos que influyen en el desarrollo de las plantas y en las condiciones del suelo. Estos factores pueden ser climáticos y edáficos.
               p Principales factores ambientales:
@@ -181,7 +181,7 @@
         .py-3.py-md-4(titulo="d) Interacción entre suelo, planta y ambiente")
           .row.justify-content-center
             .col-lg-4.col-8.mb-3
-              img(src='@/assets/curso/Tema1/img05.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema1/img05.png', alt='')
             .col-lg-6.mb-4.mb-md-0 
               p La relación entre estos tres componentes es sistémica e interdependiente:
               ul.lista-ul

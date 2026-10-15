@@ -23,7 +23,7 @@
         .py-3.py-md-4(titulo="Componente: arena")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
-              img(src='@/assets/curso/Tema2/Arena.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema2/Arena.png', alt='')
             .col-lg-3.mb-4.mb-md-0
               h4 Características
               ul.lista-ul
@@ -63,7 +63,7 @@
         .py-3.py-md-4(titulo="Componente: limo")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
-              img(src='@/assets/curso/Tema2/Limo.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema2/Limo.png', alt='')
             .col-lg-3.mb-4.mb-md-0
               h4 Características
               ul.lista-ul
@@ -103,7 +103,7 @@
         .py-3.py-md-4(titulo="Componente: arcilla")
           .row.justify-content-center.p-4
             .col-lg-2.col-8.mb-3
-              img(src='@/assets/curso/Tema2/Arcilla.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/Tema2/Arcilla.png', alt='')
             .col-lg-3.mb-4.mb-md-0
               h4 Características
               ul.lista-ul

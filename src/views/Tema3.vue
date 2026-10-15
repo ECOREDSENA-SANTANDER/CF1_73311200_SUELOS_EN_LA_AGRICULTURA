@@ -52,7 +52,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10
         .titulo-sexto.color-acento-botones(data-aos='fade-right')
-          h5 Figura 1. 
+          h5 Figura 3. 
           span pH del suelo
         img.mb-3(src="@/assets/curso/Tema3/fig1.png", alt="Ilustración del pH del suelo que muestra una planta con sus raíces absorbiendo nutrientes (N, P, K) y una escala de pH de 0 a 14, desde ácido hasta alcalino, destacando el nivel neutro alrededor de 7.")
         .row.justify-content-center.align-items-center.bg004.p-4

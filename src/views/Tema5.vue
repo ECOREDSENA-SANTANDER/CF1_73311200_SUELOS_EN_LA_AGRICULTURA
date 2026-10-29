@@ -69,8 +69,8 @@
               img(src='@/assets/curso/Tema5/1.png', alt='')          
         h3.text-center Tipo de cultivo: 
         h3.text-center Cultivos de hoja
-        p #[b Nutriente predominante:] Nitrógeno. 
-        p #[b Etapa clave:] Crecimiento.
+        p #[b Nutriente predominante:] nitrógeno. 
+        p #[b Etapa clave:] crecimiento.
 
       
       .col-md.tarjeta.bg13.p-5
@@ -80,8 +80,8 @@
               img(src='@/assets/curso/Tema5/2.png', alt='')          
         h3.text-center Tipo de cultivo: 
         h3.text-center Cultivos de fruto
-        p #[b Nutriente predominante:] Potasio.
-        p #[b Etapa clave:] Fructificación.
+        p #[b Nutriente predominante:] potasio.
+        p #[b Etapa clave:] fructificación.
       
       .col-md.tarjeta.bg10.text-white.p-5
         .row.justify-content-center.mb-4
@@ -90,8 +90,8 @@
               img(src='@/assets/curso/Tema5/3.png', alt='')          
         h3.text-center Tipo de cultivo:
         h3.text-center Cereales (maíz)
-        p #[b Nutriente predominante:] Nitrógeno y fósforo.
-        p #[b Etapa clave:] Crecimiento inicial.
+        p #[b Nutriente predominante:] nitrógeno y fósforo.
+        p #[b Etapa clave:] crecimiento inicial.
    
 
     separador
@@ -130,8 +130,8 @@
               img(src='@/assets/curso/Tema5/4.png', alt='')          
         h3.text-center Etapa del cultivo: 
         h3.text-center Siembra
-        p #[b Nutriente aplicado:] Fósforo.
-        p #[b Objetivo:] Desarrollo radicular.
+        p #[b Nutriente aplicado:] fósforo.
+        p #[b Objetivo:] desarrollo radicular.
 
       .col-md.tarjeta.bg13.p-5
         .row.justify-content-center.mb-4
@@ -140,8 +140,8 @@
               img(src='@/assets/curso/Tema5/5.png', alt='')          
         h3.text-center Etapa del cultivo: 
         h3.text-center Crecimiento
-        p #[b Nutriente aplicado:] Nitrógeno.
-        p #[b Objetivo:] Desarrollo vegetativo.
+        p #[b Nutriente aplicado:] nitrógeno.
+        p #[b Objetivo:] desarrollo vegetativo.
       
       .col-md.tarjeta.bg09.text-white.p-5
         .row.justify-content-center.mb-4
@@ -150,8 +150,8 @@
               img(src='@/assets/curso/Tema5/6.png', alt='')          
         h3.text-center Etapa del cultivo:
         h3.text-center Producción
-        p #[b Nutriente aplicado:] Potasio.
-        p #[b Objetivo:] Calidad y rendimiento.
+        p #[b Nutriente aplicado:] potasio.
+        p #[b Objetivo:] calidad y rendimiento.
 
     separador
     #t_5_3.titulo-segundo.mb-5(data-aos="zoom-in-left")

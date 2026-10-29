@@ -31,7 +31,7 @@
 
               li.d-flex
                 i.fas •
-                | Actúa como reservorio de agua, indispensable para los procesos fisiológicos de las plantas
+                | Actúa como reservorio de agua, indispensable para los procesos fisiológicos de las plantas.
               li.d-flex
                 i.fas •
                 | Es fuente de nutrientes esenciales como Nitrógeno (N), Fósforo (P) y Potasio (K).
@@ -453,7 +453,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-            h3.bg08.py-2.w-card-text Principales factores formados del suelo
+            h3.bg08.py-2.w-card-text Principales factores formadores del suelo
 
       SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="zoom-in-left")
         .tarjeta.bgslyder.p-4

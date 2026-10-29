@@ -15,7 +15,7 @@
           .col-lg-2.mb-3.col-4.col-md-2
             img(src='@/assets/curso/Tema4/img02.svg', alt='')
           .col-lg-12
-            p El análisis de suelos es un proceso técnico fundamental que permite evaluar la fertilidad y las condiciones químicas del suelo mediante pruebas de laboratorio. Este proceso incluye etapas como la toma de muestras, los procedimientos de laboratorio, la interpretación de resultados y el diagnóstico de la fertilidad, así como el estudio de fertilizantes y abonos utilizados en el manejo del suelo. A través de este análisis se obtiene información clave sobre la disponibilidad de nutrientes y las características del suelo, lo que facilita la toma de decisiones en fertilización y manejo del cultivo. Por ejemplo: un productor de tomate puede utilizar el análisis de suelo para determinar si requiere mayor aporte de fósforo para mejorar la floración y el desarrollo de frutos.
+            p El análisis de suelos es un proceso técnico fundamental que permite evaluar la fertilidad y las condiciones químicas del suelo mediante pruebas de laboratorio. Este proceso incluye etapas como la toma de muestras, los procedimientos de laboratorio, la interpretación de resultados y el diagnóstico de la fertilidad, así como el estudio de fertilizantes y abonos utilizados en el manejo del suelo. A través de este análisis se obtiene información clave sobre la disponibilidad de nutrientes y las características del suelo, lo que facilita la toma de decisiones en fertilización y manejo del cultivo. Por ejemplo, un productor de tomate puede utilizar el análisis de suelo para determinar si requiere mayor aporte de fósforo para mejorar la floración y el desarrollo de frutos.
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12
@@ -59,7 +59,7 @@
         )
         .bloque-texto-g__texto.p-4
           br
-          p.mb-0 La agricultura ecológica promueve el uso de insumos naturales y prácticas sostenibles. Por ejemplo: se utilizan biofertilizantes, extractos vegetales y control biológico en lugar de productos químicos sintéticos. También se implementan prácticas como la rotación de cultivos y el uso de coberturas vegetales para conservar la fertilidad del suelo y reducir la aparición de plagas. 
+          p.mb-0 La agricultura ecológica promueve el uso de insumos naturales y prácticas sostenibles. Por ejemplo, se utilizan biofertilizantes, extractos vegetales y control biológico en lugar de productos químicos sintéticos. También se implementan prácticas como la rotación de cultivos y el uso de coberturas vegetales para conservar la fertilidad del suelo y reducir la aparición de plagas. 
             br
             br
         

@@ -149,7 +149,7 @@
           img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
           h3.bg08.py-2.w-card-text Estructura del suelo
 
-    p La estructura del suelo se refiere a la forma en que las partículas (arena, limo y arcilla) se agrupan o agregan entre sí formando unidades llamadas agregados. Esta organización influye directamente en la aireación, infiltración de agua, retención de humedad y crecimiento de las raíces. Una buena estructura favorece la productividad agrícola, mientras que una mala estructura puede limitar el desarrollo de los cultivos.
+    p La estructura del suelo se refiere a la forma en que las partículas (arena, limo y arcilla) se agrupan o agregan entre sí, formando unidades llamadas agregados. Esta organización influye directamente en la aireación, infiltración de agua, retención de humedad y crecimiento de las raíces. Una buena estructura favorece la productividad agrícola, mientras que una mala estructura puede limitar el desarrollo de los cultivos.
   
     TabsC.color-primario.mb-3(data-aos="zoom-in-left")
       .py-3.py-md-4(titulo="Tipo de estructura: granular")
@@ -207,7 +207,7 @@
                 p.mb-0 Forma de láminas o placas.
               li.d-flex
                 i.fas.me-2 -
-                p.mb-0 Baja permeabilidad
+                p.mb-0 Baja permeabilidad.
               li.d-flex
                 i.fas.me-2 -
                 p.mb-0 Dificulta la circulación de agua y aire.
@@ -313,7 +313,7 @@
 
     separador
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
-      h2 2.1  Importancia de las propiedades físicas
+      h2 2.1  Importancia de las propiedades físicas en los cultivos
 
     p Las propiedades físicas del suelo son fundamentales para el desarrollo de los cultivos, ya que condicionan el ambiente donde crecen las raíces.
 

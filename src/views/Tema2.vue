@@ -240,7 +240,7 @@
                 p.mb-0 Favorece el encharcamiento.
               li.d-flex
                 i.fas.me-2 -
-                p.mb-0 Requiere manejo (labranza o subsolado)
+                p.mb-0 Requiere manejo (labranza o subsolado).
 
       .py-3.py-md-4(titulo="Tipo de estructura: prismática")
         .row.justify-content-center.p-4
